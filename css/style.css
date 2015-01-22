@@ -1,0 +1,322 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+#body {
+    background-color: #080500;
+}
+
+#topbody {
+    background-color: #080500;
+}
+
+#bottombody {
+    background-color: #080500;
+    border-top-style: solid;
+    border-top-color: #FF9900;
+}
+
+
+.header {
+    height:68px;
+    width:100%;
+    float:center;
+    color: #d2d2d2;
+    background-color: #080500;
+    padding-top:5%;
+    padding-left:10%;
+    padding-bottom: 5%;
+    border-bottom-style: solid;
+    border-bottom-color: #FF9900;
+    margin-bottom: 5%;
+}
+
+#container {
+    width:100%;
+    height:auto;
+    position:relative;
+    color: #d2d2d2;
+    background-color: #080500;
+}
+
+.bannerimgretainer {
+    height: 34px;
+    width:auto;
+    float:left;
+    clear:both;
+}
+
+#bannerimg {
+    height: 90%;
+    width:auto;
+    float:left;
+    
+}
+
+#elks {
+    height:auto;
+    width:5%;
+    float:left;
+    margin: 2% 2% 10% 2%;
+}
+    
+.links-bars-home {
+    width:100%;
+    height:34px;
+    margin:0% 5% 0% 5%;
+    float:left;
+    clear:both;
+    
+}
+.links-bars {
+    width:100%;
+    height:34px;
+    margin:0% 5% 0% 5%;
+    float:left;
+    clear:both;
+   
+    
+}
+
+
+.links-home {
+    width:10%;
+    padding-left: 2%;
+    /*
+    border-right-style:solid;
+    border-left-style:solid;
+    border-right-color:inherit;
+    border-left-color:inherit;
+    */
+    font-size: 1.5rem;
+}
+
+.links {
+    width:10%;
+    padding-left: 2%;
+    /*
+    border-right-style:solid;
+    border-left-style:solid;
+    border-right-color:inherit;
+    border-left-color:inherit;
+    */
+    font-size: 1.1rem;
+}
+
+/* unvisited link */
+a:link {
+    color: #FF9900;
+}
+
+/* visited link */
+a:visited {
+    color: grey;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: teal;
+}      
+
+
+.background {
+    float:right;
+}
+
+#content-container {
+    color: #d2d2d2;
+    background-color: #080500;
+    width:100%;
+    margin:10% 0% 10% 0%;
+}
+
+
+.sponsorwrapper {
+    width:50%;
+    margin: 0% 30% 0% 5%;
+}
+
+.sponsorcontainer {
+width: 100%;
+}
+
+table {
+display: table;
+border-collapse: separate;
+border-spacing: 2px;
+border-color: gray;
+}
+
+tbody {
+display: table-row-group;
+vertical-align: middle;
+border-color: inherit;
+border-top-color: inherit;
+border-right-color: inherit;
+border-bottom-color: inherit;
+border-left-color: inherit;
+}
+
+td, th {
+display: table-cell;
+vertical-align: inherit;
+margin-left: 5%:
+}
+
+.sponsorblock {
+padding-left: 2%;
+
+}
+
+strong {
+text-align: center;
+
+}
+
+#mainhomeimg {
+    width: 80%;
+    height:auto;
+}
+
+.blogwrapper-border {
+    width:90%;
+    margin-top: 4%;
+    border-style: solid;
+    border-color:white;
+}
+.blogwrapper {
+    width:90%;
+    margin-top: 4%;
+    
+}
+
+#mainblogbox {
+    width: 80%;
+    height:auto;
+    background-color: black;
+    margin-top: 1%;
+}
+
+#blog {
+    width:80%;
+    margin-top: 2%;
+    padding-top: 5%;
+    border-color: white;
+    border-top-style: solid;
+    font-color:white;
+}
+
+#eventsthumb {
+    width: 10%;
+    float:left;
+    
+}
+
+.sponsor-thumbnail {
+    width:80%;
+    background-color:#FF9900; 
+}
+
+.about-thumbnail {
+    width:50%;
+    background-color:#FF9900; 
+    float:left;
+}
+
+.btm-thumbnail {
+    width:30%;
+    height:auto;
+    background-color:#FF9900; 
+}
+
+#blog-title {
+    width:80%;
+    margin-top: 0%;
+    font-color:white;
+}
+
+#blog-date {
+    width:80%;
+    margin-top: 2%;
+    
+    font-color:white;
+}
+
+#btmblog1 {
+    width:20%;
+    float:left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#btmblog2 {
+    width:20%;
+    margin-left: 5%;
+    margin-top: 5%;
+    float:left;
+    background-image:url("images/oc-video-game-icon.png");
+}
+
+#btmblog3 {
+    width:20%;
+    margin-left: 5%;
+    margin-top: 5%;
+    float:left;
+}
+
+#btmblog4 {
+    width:20%;
+    margin-left: 5%;
+    margin-top: 5%;
+    float:left;
+}
+
+#bottomblog {
+    width:60%;
+    font-color:white;
+}
+
+#bottomblog2 {
+    width:60%;
+    font-color:white;
+}
+
+#bottomblog3 {
+    width:60%;
+    font-color:white;
+}
+#bottomblog4 {
+    width:60%;
+    font-color:white;
+}
+
+#footerwrapper {
+    width: 100%;
+    background-color: #080500;
+}
+    
+.copyright-footer {
+    color: #d2d2d2;
+    background-color: #080500;
+    width: 100%;
+    padding-top: 10%;
+    padding-left: 13%;
+    padding-right: 13%;
+    font-size: 0.75rem;
+    text-align: center;
+}
