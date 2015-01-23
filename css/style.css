@@ -215,10 +215,21 @@ text-align: center;
 #blog {
     width:80%;
     margin-top: 2%;
-    padding-top: 5%;
+    margin-left: 2%;
+    padding-top: 2%%;
     border-color: white;
     border-top-style: solid;
     font-color:white;
+}
+
+#blog2ndparagraph {
+    width:80%;
+    margin-left: 2%;
+    /*margin-top: 2%;
+    padding-top: 5%;
+    border-color: white;
+    border-top-style: solid;
+    font-color:white;*/
 }
 
 #eventsthumb {
@@ -236,6 +247,7 @@ text-align: center;
     width:50%;
     background-color:#FF9900; 
     float:left;
+    margin-right:5%;
 }
 
 .btm-thumbnail {
