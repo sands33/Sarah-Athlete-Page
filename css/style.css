@@ -13,7 +13,7 @@
 /* close commented backslash hack */
 
 #body {
-    background-color: #080500;
+    background-color: #FFFAF2;
 }
 
 #topbody {
@@ -32,9 +32,9 @@
     width:100%;
     float:center;
     color: #d2d2d2;
-    background-color: #080500;
+    background-color: #000;
     padding-top:5%;
-    padding-left:10%;
+    padding-left:20%;
     padding-bottom: 5%;
     border-bottom-style: solid;
     border-bottom-color: #FF9900;
@@ -141,7 +141,7 @@ a:active {
 
 #content-container {
     color: #d2d2d2;
-    background-color: #080500;
+    background-color: #000;
     width:100%;
     margin:10% 0% 10% 0%;
 }
@@ -190,7 +190,8 @@ text-align: center;
 }
 
 #mainhomeimg {
-    width: 80%;
+    width: 60%;
+    margin:0 20% 0 20%;
     height:auto;
 }
 
