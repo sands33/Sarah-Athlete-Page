@@ -121,7 +121,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: grey;
+    color: #FF9900;
 }
 
 /* mouse over link */
@@ -148,7 +148,7 @@ a:active {
 
 
 .sponsorwrapper {
-    width:50%;
+    width:80%;
     margin: 0% 30% 0% 5%;
 }
 
@@ -218,11 +218,11 @@ text-align: center;
     width:80%;
     margin-top: 2%;
     margin-left: 2%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     padding-top: 2%%;
     border-color: white;
     border-top-style: solid;
-    font-color:white;
+    font-color:#FF9900;
 }
 
 #blog2ndparagraph {
@@ -242,7 +242,7 @@ text-align: center;
 
 .sponsor-thumbnail {
     width:80%;
-    background-color:#FF9900; 
+    background-color:silver;
 }
 
 .about-thumbnail {
